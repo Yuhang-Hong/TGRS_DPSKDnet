@@ -22,7 +22,7 @@ from utils import evaluate, evaluate_tgt
 # from data_augmentation.learning_fourier_transform import FourierTransformModule
 # from data_augmentation.learning_total_fourier_transform import FourierTransformModule
 
-parser = argparse.ArgumentParser(description='PyTorch SDEnet')
+parser = argparse.ArgumentParser(description='PyTorch DPSKDnet')
 parser.add_argument('--save_path', type=str, default='./results/')
 parser.add_argument('--data_path', type=str,
                     default='dataset/Pavia/')
