@@ -58,19 +58,27 @@ dataset
 
 2. You can change the --data_path , the source_name and the target_name in "run.sh" to run different datasets.
 
-3. For Houston dataset:
+3. For three datasets :
+
+   ```shell
+   bash run.sh 
+   ```
+
+4. For a single dataset, you can run it from the command line.
+
+   For Houston dataset:
 
    ```shell
    python train.py --data_path dataset/Houston/ --source_name Houston13 --target_name Houston18 --re_ratio 5 --training_sample_ratio 0.8 --d_se 64  --batch_size 256 --lambda_1 1.0 --lambda_2 0.1 --seed 233
    ```
 
-4. For HyRANK dataset:
+   For HyRANK dataset:
 
    ```shell
    python train.py --data_path dataset/HyRANK/ --source_name Dioni --target_name Loukia --re_ratio 1 --training_sample_ratio 0.5 --d_se 64  --batch_size 256 --lambda_1 1.0 --lambda_2 0.1 --seed 233
    ```
 
-5. For Pavia dataset:
+   For Pavia dataset:
 
    ```shell
    python train.py --data_path dataset/Pavia/ --source_name paviaU --target_name paviaC --re_ratio 1 --training_sample_ratio 0.5 --d_se 64  --batch_size 256 --lambda_1 1.0 --lambda_2 0.1 --seed 233
