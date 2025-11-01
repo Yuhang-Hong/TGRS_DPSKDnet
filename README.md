@@ -107,6 +107,11 @@ CLASSIFICATION ACCURACY (%) OF DIFFERENT METHODS ON THE PAVIA CENTER DATASET.
 
 ## Visualization
 
+![Loukia_composite](cls_output_all/Loukia_composite.png)
+
+![Houston18_composite](cls_output_all/Houston18_composite.png)
+
+![paviaC_composite](cls_output_all/paviaC_composite.png)
 
 ## Usage
 
