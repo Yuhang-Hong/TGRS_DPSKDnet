@@ -4,7 +4,7 @@ The Pytorch Implementation of “Cross-Scene Hyperspectral Image Classification 
 
 🎉🎉🎉 This paper has been accepted by IEEE Transactions on Geoscience and Remote Sensing !
 
-DPSKDnet Paper:[![IEEE](https://img.shields.io/badge/IEEE_Xplore-Early_Access-blue)](https://ieeexplore.ieee.org/document/11272440)
+DPSKDnet Paper: [![IEEE](https://img.shields.io/badge/IEEE_Xplore-Early_Access-blue)](https://ieeexplore.ieee.org/document/11272440)
 
 ![DPSKDnet](figure/DPSKDnet.png)
 
