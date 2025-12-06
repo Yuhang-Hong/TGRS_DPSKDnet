@@ -2,6 +2,14 @@
 
 The Pytorch Implementation of “Cross-Scene Hyperspectral Image Classification Network with Dynamic Perturbation and Self-Knowledge Distillation”.
 
+🎉🎉🎉 This paper has been accepted by IEEE Transactions on Geoscience and Remote Sensing !
+
+DPSKDnet Paper:[![IEEE](https://img.shields.io/badge/IEEE_Xplore-Early_Access-blue)](https://ieeexplore.ieee.org/document/11272440)
+
+![DPSKDnet](figure/DPSKDnet.png)
+
+![generator](figure/Generator.png)
+
 ## Requirements
 
 1. We build the project with python=3.8.
@@ -144,6 +152,23 @@ CLASSIFICATION ACCURACY (%) OF DIFFERENT METHODS ON THE PAVIA CENTER DATASET.
    ```shell
    python train.py --data_path dataset/Pavia/ --source_name paviaU --target_name paviaC --re_ratio 1 --training_sample_ratio 0.5 --d_se 64  --batch_size 256 --lambda_1 1.0 --lambda_2 0.1 --seed 233
    ```
+
+## Citation
+
+If you find this project useful, please consider citing:
+
+```bibtex
+@ARTICLE{DPSKDnet,
+  author={Hong, Yuhang and Feng, Zhixi and Yang, Shuyuan and Chang, Zhihao},
+  journal={IEEE Transactions on Geoscience and Remote Sensing}, 
+  title={Cross-Scene Hyperspectral Image Classification Network with Dynamic Perturbation and Self-Knowledge Distillation}, 
+  year={2025},
+  volume={},
+  number={},
+  pages={1-1},
+  keywords={Perturbation methods;Generators;Frequency-domain analysis;Hyperspectral imaging;Data models;Semantics;Training;Predictive models;Classification algorithms;Artificial intelligence;Cross-scene HSI classification;generative adversarial network;domain generalization;dynamic perturbation;self-knowledge distillation},
+  doi={10.1109/TGRS.2025.3639448}}
+```
 
 ## Acknowledgement
 
