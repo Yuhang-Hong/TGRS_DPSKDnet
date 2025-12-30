@@ -161,12 +161,12 @@ If you find this project useful, please consider citing:
 @ARTICLE{DPSKDnet,
   author={Hong, Yuhang and Feng, Zhixi and Yang, Shuyuan and Chang, Zhihao},
   journal={IEEE Transactions on Geoscience and Remote Sensing}, 
-  title={Cross-Scene Hyperspectral Image Classification Network with Dynamic Perturbation and Self-Knowledge Distillation}, 
+  title={Cross-Scene Hyperspectral Image Classification Network With Dynamic Perturbation and Self-Knowledge Distillation}, 
   year={2025},
-  volume={},
+  volume={63},
   number={},
-  pages={1-1},
-  keywords={Perturbation methods;Generators;Frequency-domain analysis;Hyperspectral imaging;Data models;Semantics;Training;Predictive models;Classification algorithms;Artificial intelligence;Cross-scene HSI classification;generative adversarial network;domain generalization;dynamic perturbation;self-knowledge distillation},
+  pages={1-15},
+  keywords={Perturbation methods;Generators;Frequency-domain analysis;Hyperspectral imaging;Data models;Semantics;Training;Predictive models;Classification algorithms;Artificial intelligence;Cross-scene hyperspectral image (HSI) classification;domain generalization (DG);dynamic perturbation;generative adversarial network;self-knowledge distillation},
   doi={10.1109/TGRS.2025.3639448}}
 ```
 
